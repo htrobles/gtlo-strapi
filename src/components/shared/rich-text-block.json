@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_rich_text_block_s",
+  "info": {
+    "displayName": "Rich Text (Block)",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "RichText": {
+      "type": "blocks"
+    }
+  }
+}

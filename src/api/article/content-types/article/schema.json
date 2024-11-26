@@ -46,7 +46,12 @@
       "inversedBy": "articles"
     },
     "content": {
-      "type": "blocks"
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
