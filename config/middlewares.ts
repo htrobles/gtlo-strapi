@@ -15,7 +15,11 @@ export default [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          'script-src': ['https://cdn.ckeditor.com'],
+          'script-src': [
+            "'self'",
+            'https://cdn.ckeditor.com',
+            'https://admin.gospeltrendlondon.org',
+          ],
         },
       },
     },
