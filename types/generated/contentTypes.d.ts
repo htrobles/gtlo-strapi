@@ -422,7 +422,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
         'plugin::ckeditor.CKEditor',
         {
           output: 'HTML';
-          preset: 'light';
+          preset: 'rich';
         }
       >;
     cover: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
